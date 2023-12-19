@@ -1,9 +1,9 @@
-package com.sparta.plusweek.dto;
+package com.sparta.plusweek.domain.dto;
 
 import lombok.Getter;
 
 @Getter
 public class LoginRequestDto {
-    private String nickname;
+    private String username;
     private String password;
 }
